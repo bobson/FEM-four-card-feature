@@ -14,13 +14,13 @@ const cardData = [
   {
     title: "Karma",
     desc: "Regularly evaluates our talent to ensure quality",
-    imgSrc: "/images/icon-karma.svg",
+    imgSrc: "./images/icon-karma.svg",
     color: "var(--clr-orange)",
   },
   {
     title: "Calculator",
     desc: " Uses data from past projects to provide better delivery estimates",
-    imgSrc: "/images/icon-calculator.svg",
+    imgSrc: "./images/icon-calculator.svg",
     color: "var(--clr-blue)",
   },
 ];
