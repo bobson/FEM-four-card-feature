@@ -33,9 +33,11 @@ document.addEventListener("DOMContentLoaded", function () {
     cardEl.classList.add("card");
     cardEl.style.borderTopColor = card.color;
     cardEl.innerHTML = `
+      <div>
         <h2 class="card-title text-heading-card">${card.title}</h2>
         <p class="card-description text-card">
         ${card.desc}</p>
+      </div>       
         <img src=${card.imgSrc} alt=${card.title} class="card-image" />
         `;
     cards.appendChild(cardEl);
